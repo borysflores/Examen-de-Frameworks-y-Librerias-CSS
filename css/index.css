@@ -1,0 +1,105 @@
+.barra-superior{
+  min-height: 10rem;
+}
+
+div[class*="columna"]{
+  min-height: 35rem;
+}
+div[class*="bloque"]{
+  height: 25rem;
+  overflow: scroll;
+}
+.columna-chat, .columna-news{
+  padding: 0 !important;
+}
+.contenedor-write-publicacion{
+  min-height: 7rem;
+}
+.contenedor-publicacion{
+  min-height: 17rem;
+}
+.logo{
+  width: 190px;
+  margin: 0.5rem;
+  float: left;
+}
+
+h5 {
+  color: white;
+  text-align: center;
+}
+
+.titicaca {
+  float: left;
+  width: 50%;
+  border: 4px white solid;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.perfil {
+  width: 30%;
+  border: 2px white solid;
+  display: block;
+  padding: auto;
+  margin: auto;
+}
+
+.texto-coment {
+  padding: 15px;
+}
+
+.comentario {
+  margin-top: 0.5rem;
+  padding: 15px;
+}
+
+.fotos-column {
+  width: 100%;
+}
+
+.slogan {
+  margin-top: 2rem;
+}
+
+.contenedor-noticias{
+  margin-top: 1rem;
+  min-height: 50rem;
+  padding: 0.5rem;
+}
+.responsive-img{
+  border: 0.6rem solid white;
+  border-radius: 5px;
+}
+.buscar-campo{
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 70%;
+}
+.barra-superior .row{
+  margin-bottom: 0;
+}
+.contenedor-seg{
+  margin-top: 1rem;
+}
+
+.social-b {
+  width: 40px;
+}
+
+#publicacion-texto{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  resize: none;
+  border: 1px solid white;
+  background-color: white;
+  height: 5rem;
+  width: 90%;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .columna-grupos{
+    padding: 0 !important;
+  }
+}

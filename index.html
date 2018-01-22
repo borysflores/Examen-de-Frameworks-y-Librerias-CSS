@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/customColors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Blog de Turismo</title>
+</head>
+<body>
+    <div class="row">
+        <div class="navbar-fixed">
+           <nav>
+             <div class="nav-wrapper cyan darken-3">
+               <a class="brand-logo left" href="index.html"><img class="logo" src="img/logo-tur-2.png">
+                   <h6 class="slogan hide-on-small-only">Creando mi propio camino...</h6>
+               </a>
+               <a href="#" data-activates="mobile-demo" class="right button-collapse"><i class="material-icons">menu</i></a>
+               <ul id="nav-mobile" class="right hide-on-med-and-down">
+                   <li class="active"><a href="index.html">Inicio</a></li>
+                   <li><a href="#!">Estuve en</a></li>
+                   <li><a href="#!">Mejores viajes</a></li>
+                   <li><a href="#!">Recomendaciones</a></li>
+               </ul>
+             </div>
+           </nav>
+        </div>
+        <div class="row">
+            <div class="col m1 l1 contenedor-seg hide-on-small-only">
+                <a href="https://www.facebook.com/"><img class="social-b" src="img/facebook.png"></a>
+                <a href="https://twitter.com/"><img class="social-b" src="img/twitter.png"></a>
+                <a href="https://bo.linkedin.com/"><img class="social-b" src="img/linkedin.png"></a>
+            </div>
+            <div class="row col s12 m11 l11 contenedor-seg">
+                <div class="s12 m6 l4 col">
+                    <img src="img/foto1.png" class="fotos-column z-depth-1"/>
+                    <img src="img/foto2.png" class="fotos-column z-depth-1"/>
+                </div>
+                <div class="s12 m6 l4 col">
+                    <img src="img/foto3.png" class="fotos-column z-depth-1"/>
+                </div>
+                <div class="s12 m6 l4 col">
+                    <img src="img/foto4.png" class="fotos-column z-depth-1"/>
+                    <img src="img/foto5.png" class="fotos-column z-depth-1"/>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="row col">
+            <div class="col s12 m7 l7">
+                <div class="row blue-grey lighten-5 texto-coment">
+                    <h4>Título descriptivo</h4>
+                    <div class="chip">
+                        21/01/2017
+                        <i class="material-icons">date_range</i>
+                    </div>
+                    <div class="chip">
+                        Lago Titicaca - La Paz
+                        <i class="material-icons">location_on</i>
+                    </div>
+                    <div class="chip">
+                        0
+                        <i class="material-icons">comment</i>
+                    </div>
+                    <p class="flow-text">
+                        <img class="titicaca z-depth-1" src="img/foto6.png"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar feugiat libero auctor pulvinar. Integer nec placerat risus.
+                        Integer a lectus maximus nulla rutrum semper quis eget ex. In condimentum velit nec ipsum molestie, sit amet posuere augue porttitor. Praesent ut orci sit amet turpis maximus fermentum sed vel erat.
+                        Cras vulputate mauris et rhoncus commodo. Donec ornare, turpis vel congue rhoncus, nunc libero blandit est, ut tincidunt quam ipsum sit amet arcu. Morbi hendrerit nunc et porttitor euismod.
+                    </p>
+                </div>
+                <div class="row comentario cyan darken-4">
+                    <h5>Deja tu comentario</h5><br>
+                    <form class="col s12 m12">
+                        <div class="row">
+                            <div class="input-field col s12 m12 l6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">Nombre</label>
+                            </div>
+                            <div class="input-field col s12 m12 l6">
+                                <i class="material-icons prefix">mail</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email" data-error="wrong" data-success="right">Email</label>
+                            </div>
+                        </div>
+                        <div class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">textsms</i>
+                                    <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                    <label for="icon_prefix2">Comentario</label>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn waves-effect waves-light right" type="submit" name="action">Enviar
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="col s12 m5 l5">
+                <div class="row blue-grey lighten-4 texto-coment">
+                    <img class="circle perfil" src="img/perfil.png"/>
+                    <h4 class="center-align">Lorena Ipsula</h4>
+                    <hr>
+                    <p class="flow-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar feugiat libero auctor pulvinar. Integer nec placerat risus.
+                        Integer a lectus maximus nulla rutrum semper quis eget ex. In condimentum velit nec ipsum molestie, sit amet posuere augue porttitor.
+                        Praesent ut orci sit amet turpis maximus fermentum sed vel erat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer cyan darken-3">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Copyright BOTUR
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
