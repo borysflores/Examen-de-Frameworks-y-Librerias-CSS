@@ -30,11 +30,7 @@ h5 {
 }
 
 .titicaca {
-  float: left;
-  width: 50%;
-  border: 4px white solid;
-  margin-right: 15px;
-  margin-bottom: 5px;
+  margin: 5px;
 }
 
 .perfil {
